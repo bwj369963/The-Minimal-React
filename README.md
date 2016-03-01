@@ -1,7 +1,7 @@
 # The Minimal React
 Don't be afraid to use Babel and Webpack...
 
-## Who this?
+## How this?
 
 ### Initialize NPM
 `npm init`
