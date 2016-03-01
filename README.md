@@ -1,7 +1,7 @@
 # The Minimal React
 Don't be afraid to use Babel and Webpack...
 
-## How this?
+## This repository is a result of the following steps
 
 #### Initialize NPM
 `npm init`
