@@ -21,7 +21,6 @@ module.exports = {
     filename: "bundle.js"
   }
 };
-
 ```
 You can change `entry.js` and `bundle.js` to whatever you want.
 
@@ -45,6 +44,6 @@ module: {
 
 **That's it!** Add some ES2015 and React code to your entry point file (`entry.js`).
 
-Run: `.\node_modules\.bin\webpack` or `node_modules\.bin\webpack.cmd` if Windows.
+Run: `./node_modules/.bin/webpack` or `node_modules\.bin\webpack.cmd` if Windows.
 
 And place the bundled (`bundle.js`) result in your HTML.
