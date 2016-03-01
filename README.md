@@ -1,6 +1,10 @@
 # The Minimal React
 Don't be afraid to use Babel and Webpack...
 
+`npm install`
+`npm run dev`
+`start http://localhost:8080`
+
 ## This repository is a result of the following steps
 
 #### Initialize NPM
@@ -47,3 +51,24 @@ module: {
 Run: `./node_modules/.bin/webpack` or `node_modules\.bin\webpack.cmd` if Windows.
 
 And place the bundled (`bundle.js`) result in your HTML.
+
+## But wait!
+
+**I don't want to type `./node_modules/.bin/webpack` every time!**
+
+### [NPM scripts!](https://docs.npmjs.com/misc/scripts)
+Just like the `test` property on the `scripts` section of [package.json](package.json).
+Add a `build` property with the value `./node_modules/.bin/webpack`. Run with `npm run build`. You can alias whatever command you want.
+
+**I don't want to run `npm run build` every time a make a change on the JavaScript!**
+
+### [Webpack Dev Server!](https://webpack.github.io/docs/webpack-dev-server.html)
+
+- Just install: `npm i --save-dev webpack-dev-server`
+- Alias on `scripts` : `"dev": "./node_modules/.bin/webpack-dev-server"`
+- Run! `npm run dev`
+
+And be amazed by a webserver right on your local machine, running on port 8080, that auto-magically builds your project whenever you change it:
+http://localhost:8080/
+
+**Disclaimer:** Webpack dev server it meant to development purposes only. If in production, just place your `index.html` and `bundle.js` files in a production grade webserver like Apache and Ngix.
