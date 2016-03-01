@@ -6,5 +6,8 @@ Don't be afraid to use Babel and Webpack...
 #### Initialize NPM
 `npm init`
 
-#### Add development dependencies
+#### Add the bad guys
 `npm i --save-dev webpack babel-loader`
+
+#### Add the cool guys
+`npm i --save react react-dom`
