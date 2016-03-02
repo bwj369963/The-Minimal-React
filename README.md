@@ -1,9 +1,11 @@
 # The Minimal React
 Don't be afraid to use Babel and Webpack...
 
-`npm install`
-`npm run dev`
-`start http://localhost:8080`
+- `git clone https://github.com/leocavalcante/The-Minimal-React.git minimal-react`
+- `cd minimal-react`
+- `npm install`
+- `npm run dev`
+- `start http://localhost:8080`
 
 ## This repository is a result of the following steps
 
