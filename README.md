@@ -1,5 +1,5 @@
-# The Minimal React
-Don't be afraid to use Babel and Webpack...
+# The Minimal React + Redux
+Don't be afraid to use Babel, Webpack and Redux...
 
 - `git clone https://github.com/leocavalcante/The-Minimal-React.git minimal-react`
 - `cd minimal-react`
@@ -16,7 +16,7 @@ Don't be afraid to use Babel and Webpack...
 `npm i --save-dev webpack babel-loader babel-preset-es2015 babel-preset-react`
 
 #### Add the cool guys
-`npm i --save react react-dom`
+`npm i --save react react-dom react-redux`
 
 #### Grab a copy of a [Webpack config file](http://webpack.github.io/docs/tutorials/getting-started/#config-file)
 ```js
